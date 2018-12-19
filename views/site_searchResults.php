@@ -1,5 +1,4 @@
 <?php foreach ($query as $row) {
- // print_r($row); 
 } 
   ?>
   <h2 class="sub-header">Search Results</h2>
@@ -23,9 +22,7 @@
                            
                   echo $row->email;
                   echo "</td>";
-                  echo "<td>";    
-                  // since we have an array of objects we need to use reference operator  
-                            
+                  echo "<td>";                         
                   echo $row->title;
                   echo "</td>";
 

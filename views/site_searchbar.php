@@ -4,7 +4,6 @@
 
 //opens a form that sends to search wben submitted
 //style form with array;
-//$formAttr = array('class'=>'sr-only', // something, something else);
 $searchbarAttr = array('class'=>'form-control','name'=>'searchbar', 'placeholder'=>'Search', 'input'=>'text');
 
 	echo form_open('site/searchbar');
@@ -18,18 +17,7 @@ $searchbarAttr = array('class'=>'form-control','name'=>'searchbar', 'placeholder
 
 		echo form_input($searchbarAttr);
 ?>
-<!-- Split button -->
-
-<!-- use form helper dropdown button  -->
-<!-- List of selections selection value and textname -->
 <?php
-// $options = array(
-//                   'books'  => 'Books',
-//                   'phones'    => 'Phones',
-//                   'equipment'   => 'Equipment',
-                  
-//                 );
-
 $options = array(
                   'book'  => 'Books',
                   'phone'    => 'Phones',
